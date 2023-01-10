@@ -1,0 +1,31 @@
+.cafe-card-container {
+  width: 300px;
+  height: 400px;
+  margin: 30px 10px 0 10px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+.cafe-card-info-container {
+  display: flex;
+}
+.cafe-card-name-container {
+  width: 200px;
+  text-align: left;
+}
+.cafe-card-score-container {
+  width: 100px;
+  text-align: right;
+}
+.cafe-card-heart {
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+.cafe-card-heart-back {
+  color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 30px;
+  right: 17px;
+  font-size: 1.9rem;
+}

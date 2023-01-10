@@ -1,0 +1,23 @@
+.city-nav-main-container {
+  width: 100vw;
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+.city-nav-container {
+  border: 1px solid black;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-radius: 20px;
+}
+.city-nav-container span {
+  display: inline-block;
+  margin: 0 10px;
+}
+.city-nav-container a {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.city-nav-container a:hover {
+  color: gray;
+}

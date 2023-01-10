@@ -1,0 +1,36 @@
+.card-carousel-image-container {
+  width: 300px;
+  height: 300px;
+}
+.card-carousel-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.card-carousel-button-right,
+.card-carousel-button-left {
+  height: 50px;
+  border: 0;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.3s ease;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.card-carousel-button-right:hover,
+.card-carousel-button-left:hover {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+.visible {
+  opacity: 100%;
+  transition: opacity 0.3s ease;
+}
+.cafe-card-heart {
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+.cafe-card-heart:hover {
+  cursor: pointer;
+}

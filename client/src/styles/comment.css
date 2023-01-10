@@ -1,0 +1,109 @@
+.comments-display-main-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.comment-container {
+  width: 50%;
+  height: 250px;
+}
+.comment-header-container {
+  display: flex;
+}
+.comment-header-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.comment-header-container h5 {
+  text-transform: uppercase;
+  margin: 10px 0 0 10px;
+}
+.comment-header-container p {
+  text-transform: uppercase;
+  margin: 0 0 0 10px;
+  font-size: 0.8rem;
+  color: #717171;
+}
+.create-comment-main-container {
+  width: 100%;
+  margin-bottom: 100px;
+  text-align: center;
+  position: relative;
+}
+.create-comment-main-container textarea {
+  width: 80%;
+}
+.create-comment-main-container button {
+  margin: -10px 0 0 0;
+  padding: 0;
+  border: 1px solig gray;
+  height: 42px;
+  display: inline-block;
+}
+.create-comment-form-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.create-comment-form textarea {
+  width: 720px;
+  height: 300px;
+  border-radius: 15px;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  outline-color: #717171;
+}
+.create-comment-form button {
+  margin: 20px 2px 0 2px;
+  padding: 0 10px;
+  border-radius: 15px;
+  border: 1px solid black;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+.create-comment-form button:hover {
+  background-color: black;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+.add-comment-button {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.add-comment-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.delete-comment-button {
+  margin: 0;
+  font-size: 0.8rem;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 2px 5px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+.delete-comment-button:hover {
+  color: red;
+}
+.comment-text {
+  width: 95%;
+}
