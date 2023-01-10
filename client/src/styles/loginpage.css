@@ -1,0 +1,10 @@
+.login-header {
+  text-transform: uppercase;
+  font-weight: 200;
+  margin: 20px 0 10px 0;
+}
+.login-sub-header {
+  text-transform: uppercase;
+  font-weight: 200;
+  margin: 5px 0 40px 0;
+}

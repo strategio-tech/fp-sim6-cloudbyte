@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@100;200;400&family=Oxygen:wght@300&display=swap");
+
+.form-container {
+  font-family: "Montserrat", sans-serif;
+}
+.signup-header {
+  text-transform: uppercase;
+  font-weight: 200;
+  margin: 20px 0 10px 0;
+}
+.signup-sub-header {
+  text-transform: uppercase;
+  font-weight: 200;
+  margin: 5px 0 40px 0;
+}
+.input-container {
+  width: 200px;
+  margin: 0 auto;
+}
+form label {
+  display: block;
+  text-align: start;
+}
+form input {
+  width: 200px;
+  height: 20px;
+  margin: 5px 0 10px 0;
+}
+form input:focus {
+  outline-color: rgb(170, 168, 168);
+}
+form button {
+  padding: 10px 30px;
+  margin: 10px 0 0 0;
+  text-transform: uppercase;
+}
+.bottom-nav-link-container {
+  margin: 50px 0 0 0;
+}
+.bottom-nav-link {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.bottom-nav-link a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #000;
+}
+.bottom-nav-link a:hover {
+  color: gray;
+}
+.password-strength,
+.password-match {
+  margin: 0 0 7px 0;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}
+.weak {
+  color: red;
+}
+.medium {
+  color: orange;
+}
+.strong {
+  color: green;
+}

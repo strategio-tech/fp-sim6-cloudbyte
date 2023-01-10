@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@100;200;400&family=Oxygen:wght@300&display=swap");
+
+.parallax {
+  background-image: url("../images/heroImage.jpg");
+  min-height: 60vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+.parallax-overlay {
+  background-image: url("../images/overlay.png");
+  min-width: 100%;
+  min-height: 60vh;
+  z-index: 1000;
+  background-attachment: fixed;
+  position: relative;
+}
+.city-list span {
+  color: gray;
+  font-weight: lighter;
+}
+.hero-text-container {
+  font-family: "Montserrat", sans-serif;
+}
+.catch-phrase {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 3rem;
+  background-color: rgb(170, 168, 168);
+  height: 100px;
+  margin-top: 0;
+  padding-top: 40px;
+  color: #fff;
+}
+.about-text {
+  width: 60%;
+  margin: 0 auto 50px auto;
+  font-weight: 100;
+}
+.hero-image-container {
+  width: 70%;
+  margin: 0 auto;
+}
+.hero-image {
+  width: 50%;
+  filter: grayscale(100%);
+  margin-bottom: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.coffee-parallax {
+  background-image: url("../images/herocoffee.jpg");
+  min-height: 40vh;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+.coffee-parallax-overlay {
+  background-image: url("../images/overlay.png");
+  min-width: 100%;
+  min-height: 40vh;
+  z-index: 1000;
+  background-attachment: fixed;
+  position: relative;
+}
+.footer-container {
+  font-weight: 200;
+  height: 50px;
+  background-color: rgb(170, 168, 168);
+  color: #fff;
+}
+.footer-container p {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-container i {
+  color: red;
+}
+.footer-container a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+}
