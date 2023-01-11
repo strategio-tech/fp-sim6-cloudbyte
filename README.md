@@ -33,16 +33,41 @@ local area. Sign up and make friends, share your unique coffee experiences, disc
 
 # Requirements      
  <p><h1>MongoDB </h1></p>
- <p>Utilizing Mongoose, we connect to MongoDB to store all information about our timed events. When we fetch all our timed events or delete one, data is retrieved from the database. Additionally, new events are saved into our TimerDB using Mongoose. </p>
+ <p>Utilizing Mongoose, we connect to MongoDB to store all information about our timed . When we fetch all our timed events or delete one, data is retrieved from the database. Additionally, new events are saved into our TimerDB using Mongoose. </p>
  
 <p><h1>Node.js/Express</h1></p>
-<p>By implementing Express and Mongoose, we established a connection between the frontend and our MongoDB database, and defined the functionality of the APIs. Utilizing Axios, we have the capability to retrieve all timers, delete timers, and add timers to our Mongo instance. Additionally, using Node, I created a timer schema for our MongoDB instance to keep track of the data. </p>
+<p>By implementing Express and Mongoose, we established a connection between the frontend and our MongoDB database, and defined the functionality of the APIs.  </p>
  
 <p><h1>React</h1></p>
-<p> For the frontend, we employed React. React Hooks were used to dynamically update the countdown timer and background colors, as well as displaying all the countdown timers on the screen. The application has been separated into multiple different components to enhance organization and maintainability.</p>
+<p> For the frontend, we use React. React Hooks were used to dynamically. The application has been separated into multiple different components to enhance organization and maintainability.</p>
       
       
 # Process for creating, designing, and maintaining software applications.
 
 ![image](https://user-images.githubusercontent.com/105890888/211891873-058a50bb-89f6-4d72-9d27-66cd15ecf159.png)
 
+# Hosting Services
+<p><h1>Netlify</h1></p>
+Use to host the client. 
+
+<p><h1>Cyclic</h1></p>
+<p>use to host the server </p>
+
+<p><h1>MongoDB Atlas</h1></p>
+Use to store the data  from our app. 
+
+<p><h1>Cloudinary</h1></p>
+Use to store and retrive images
+
+
+# Run Locally 
+First clone the repository and cd into the appropriate directory to run the installation commands.
+make sure you have node installed on your machine.
+# Client 
+<p>Starting at the project's root directory: run the following command <br>
+npm install </p>
+<br>client  port http://localhost:3000 
+
+# Server 
+</p>to start the server run "node app.js" from server folder root. To start client run "npm start" from client folder root.
+<br> server port http://localhost:3001 </p>
