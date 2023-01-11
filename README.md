@@ -4,21 +4,31 @@
 ![image](https://user-images.githubusercontent.com/105890888/211836025-68494da8-9a76-4be0-b204-d4e0ecb95eae.png)
 
 <p align="center"> Brew List is a social media platform for coffee lovers where you can connect with trendy coffee shops in your
-local area. Sign up and make friends, share your unique coffee experiences and discover new flavors by joining us
+local area. Sign up and make friends, share your unique coffee experiences, discover new flavors by joining us
 </p> 
 
 # List of contents
-
+<ol>
+  <li>Underlying technology.</li>
+  <li>Key features.</li>
+  <li>Requirements.</li>
+  <li>Setting up locally.</li>
+</ol>
 
 # Underlying technology
-
+ 
+ <li>Node.js.</li>
+ <li>React.js</li>
+ <li>Mongoose</li>
+ <li>JavaScript</li>
 
 # Key features
-
-
+      
+    
+    
 # Requirements
-
-
-
+      
+      
+      
 
 
