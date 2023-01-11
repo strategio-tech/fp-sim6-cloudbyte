@@ -17,12 +17,14 @@ local area. Sign up and make friends, share your unique coffee experiences, disc
 
 # Underlying technology
  
- <li>Node.js.</li>
+ <li>Node.js</li>
  <li>React.js</li>
  <li>Mongoose</li>
+ <li>Express</li>
  <li>JavaScript</li>
 
 # Key features
+  
       
     
     
