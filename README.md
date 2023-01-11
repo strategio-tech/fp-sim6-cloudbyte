@@ -9,10 +9,10 @@ local area. Sign up and make friends, share your unique coffee experiences, disc
 
 # List of contents
 <ol>
-  <li>Underlying technology.</li>
-  <li>Key features.</li>
-  <li>Requirements.</li>
-  <li>Setting up locally.</li>
+<li>Underlying technology.</li>
+<li>Key features.</li>
+<li>Requirements.</li>
+<li>Setting up locally.</li>
 </ol>
 
 # Underlying technology
@@ -29,6 +29,8 @@ local area. Sign up and make friends, share your unique coffee experiences, disc
   <li>User can update profile picture</li>
   <li>Find Coffee shops by city </li>
   
+ 
+
 # Requirements      
  <p><h1>MongoDB </h1></p>
  <p>Utilizing Mongoose, we connect to MongoDB to store all information about our timed events. When we fetch all our timed events or delete one, data is retrieved from the database. Additionally, new events are saved into our TimerDB using Mongoose. </p>
@@ -40,5 +42,7 @@ local area. Sign up and make friends, share your unique coffee experiences, disc
 <p> For the frontend, we employed React. React Hooks were used to dynamically update the countdown timer and background colors, as well as displaying all the countdown timers on the screen. The application has been separated into multiple different components to enhance organization and maintainability.</p>
       
       
+# Process for creating, designing, and maintaining software applications.
 
+![image](https://user-images.githubusercontent.com/105890888/211891873-058a50bb-89f6-4d72-9d27-66cd15ecf159.png)
 
