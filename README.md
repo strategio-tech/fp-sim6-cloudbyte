@@ -33,7 +33,7 @@ local area. Sign up and make friends, share your unique coffee experiences, disc
 
 # Requirements      
  <p><h1>MongoDB </h1></p>
- <p>Utilizing Mongoose, we connect to MongoDB to store all information about our timed . When we fetch all our timed events or delete one, data is retrieved from the database. Additionally, new events are saved into our TimerDB using Mongoose. </p>
+ <p>Utilizing Mongoose, we connect to MongoDB to store all information about the users, such as username, password, email and so, also to keep track of comments and     cafes.</p>
  
 <p><h1>Node.js/Express</h1></p>
 <p>By implementing Express and Mongoose, we established a connection between the frontend and our MongoDB database, and defined the functionality of the APIs.  </p>
