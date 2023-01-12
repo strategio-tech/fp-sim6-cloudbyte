@@ -16,10 +16,7 @@ jobs:
       run: npm ci
     - name: Run tests  
       working-directory: server
-      run:         
-          CI=true npm run test
-      env:
-        CI: true
+      run: npm test
     - name: Build the application
       run: npm run build
  
