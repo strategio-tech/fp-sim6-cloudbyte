@@ -59,4 +59,17 @@ router.post("/about-text/upload", (req, res) => {
   res.json({ message: "Hey its the server, I got the about text!" });
 });
 
+//GET user from DB for testing
+router.get("/test-user/:un", (req, res) => {
+  const { un } = req.params;
+  User.findOne({ un })
+    .then((foundUser) => {
+      res.json({ success: "Find user successful." });
+    })
+    .catch((err) => {
+      console.log(err);
+      res.json({ error: err });
+    });
+});
+
 module.exports = router;
