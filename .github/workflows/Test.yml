@@ -12,8 +12,9 @@ jobs:
       with:
         node-version: 14
     - name: Install dependencies
+      working-directory: ../server
       run: npm ci
-    - name: Run tests
+    - name: Run tests     
       run: npm test
     - name: Build the application
       run: npm run build
