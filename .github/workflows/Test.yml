@@ -17,7 +17,7 @@ jobs:
     - name: Run tests  
       working-directory: server
       run:         
-          CI=true npm run test-headless
+          CI=true npm run test
       env:
         CI: true
     - name: Build the application
