@@ -9,28 +9,32 @@ local area. Sign up and make friends, share your unique coffee experiences, disc
 
 # List of contents
 <ol>
-<li>Underlying technology.</li>
-<li>Key features.</li>
-<li>Requirements.</li>
-<li>Setting up locally.</li>
+<li>Underlying technology</li>
+<li>Key features</li>
+<li>Requirements</li>
+<li>Setting up locally</li>
 </ol>
 
 # Underlying technology
  
+ <ul>
  <li>Node.js</li>
  <li>React.js</li>
  <li>Mongoose</li>
  <li>Express</li>
  <li>JavaScript</li>
+ </ul>
 
 # Key features
-  <li>Users can create an account</li>
-  <li>users can like post </li>
-  <li>User can update profile picture</li>
-  <li>Find Coffee shops by city </li>
-  
+ <ul>
+ <li>Users can create an account</li>
+ <li>Users can set up profile, upload picture, write an about me</li>
+ <li>Coffee shops can be filtered by City</li>
+ <li>Users can leave reviewes on coffee shops</li>
+ <li>Users can favorite coffee shops, favorites will show up under user profile</li>
+ <li>Users can view other users profiles</li>
+ </ul>
  
-
 # Requirements      
  <p><h1>MongoDB </h1></p>
  <p>Utilizing Mongoose, we connect to MongoDB to store all information about the users, such as username, password, email and so, also to keep track of comments and     cafes.</p>
