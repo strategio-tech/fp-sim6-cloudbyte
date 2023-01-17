@@ -36,14 +36,14 @@ local area. Sign up and make friends, share your unique coffee experiences, disc
  </ul>
  
 # Requirements      
- <p><h1>MongoDB </h1></p>
- <p>Utilizing Mongoose, we connect to MongoDB to store all information about the users, such as username, password, email and so, also to keep track of comments and     cafes.</p>
+ <h2>MongoDB </h2>
+ <p>Due to scalability, manageability and dynamic schemas, MongoDB has been used as the database for the application. Users, cafes and comments are stored in the cloud hosted MongoDB Atlas solution.</p>
  
-<p><h1>Node.js/Express</h1></p>
+<h2>Node.js/Express</h2>
 <p>By implementing Express and Mongoose, we established a connection between the frontend and our MongoDB database, and defined the functionality of the APIs.  </p>
  
-<p><h1>React</h1></p>
-<p> For the frontend, we use React. React Hooks were used to dynamically. The application has been separated into multiple different components to enhance organization and maintainability.</p>
+<h2>React</h2>
+<p> React is used for the frontend. Hooks are used for data propagation, API calls, Prop management, and Conditional rendering among other functionalities./p>
       
       
 # Process for creating, designing, and maintaining software applications.
