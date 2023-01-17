@@ -47,30 +47,53 @@ local area. Sign up and make friends, share your unique coffee experiences, disc
 ![image](https://user-images.githubusercontent.com/105890888/211891873-058a50bb-89f6-4d72-9d27-66cd15ecf159.png)
 
 # Hosting Services
-<p><h1>Netlify</h1></p>
-Use to host the client. 
+<h2>Netlify</h2>
+<p>Used to host the Client side of the project.</p> 
 
-<p><h1>Cyclic</h1></p>
-<p>use to host the server </p>
+<h2>Cyclic</h2>
+<p>Used to host the Server side of the project</p>
 
-<p><h1>MongoDB Atlas</h1></p>
-Use to store the data  from our app. 
+<h2>MongoDB Atlas</h2>
+<p>Cloud hosted database for the project.</p>
 
-<p><h1>Cloudinary</h1></p>
-Use to store and retrive images
+<h2>Cloudinary</h2>
+<p>Image hosting service used to host the profile images.</p>
+<p>The images are encoded and stored in base64 format, the links to the images are stored in the database.</p>
 
+# Run Project Locally 
+<p>Clone the repository to your local machine, make sure to have node installed.
+ <br>
+For instruction on installing node refer to the link below.
+</p>
+<p>https://docs.npmjs.com/downloading-and-installing-node-js-and-npm</p>
+<p>With node installed, follow instructions below to set-up the Client and the Server</p>
 
-# Run Locally 
-First clone the repository and cd into the appropriate directory to run the installation commands.
-make sure you have node installed on your machine.
-# Client 
-<p>Starting at the project's root directory: run the following command</p>
-<br>
+## Client 
+<p>CD into the Client directory and run the below command to install the dependencies</p>
+
 ```bash
   npm install
 ```
-<br>client  port http://localhost:3000 
+<p>To start the client run below command from client root directory</p>
 
-# Server 
-</p>to start the server run "node app.js" from server folder root. To start client run "npm start" from client folder root.
-<br> server port http://localhost:3001 </p>
+```bash
+  npm start
+```
+
+The client will start and run on http://localhost:3000/
+
+
+## Server 
+<p>CD into the Server directory and run the below command to install the dependencies</p>
+
+```bash
+  npm install
+```
+<p>To start the server run below command from server root directory</p>
+
+```bash
+  node app.js
+```
+
+The server will start and run on http://localhost:3001/
+
