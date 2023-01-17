@@ -64,8 +64,11 @@ Use to store and retrive images
 First clone the repository and cd into the appropriate directory to run the installation commands.
 make sure you have node installed on your machine.
 # Client 
-<p>Starting at the project's root directory: run the following command <br>
-npm install </p>
+<p>Starting at the project's root directory: run the following command</p>
+<br>
+```bash
+  npm install
+```
 <br>client  port http://localhost:3000 
 
 # Server 
