@@ -48,7 +48,7 @@ local area. Sign up and make friends, share your unique coffee experiences, disc
       
 # Process for creating, designing, and maintaining software applications.
 
-![image](https://user-images.githubusercontent.com/105890888/211891873-058a50bb-89f6-4d72-9d27-66cd15ecf159.png)
+![Architecture](https://user-images.githubusercontent.com/38254701/213244438-3ac04594-3250-4c10-99bb-5df4c39f4399.jpg)
 
 # Hosting Services
 <h2>Netlify</h2>
