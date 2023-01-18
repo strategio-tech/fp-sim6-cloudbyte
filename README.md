@@ -43,7 +43,7 @@ local area. Sign up and make friends, share your unique coffee experiences, disc
 <p>By implementing Express and Mongoose, we established a connection between the frontend and our MongoDB database, and defined the functionality of the APIs.  </p>
  
 <h2>React</h2>
-<p> React is used for the frontend. Hooks are used for data propagation, API calls, Prop management, and Conditional rendering among other functionalities./p>
+<p> React is used for the frontend. Hooks are used for data propagation, API calls, Prop management, and Conditional rendering among other functionalities.</p>
       
       
 # Process for creating, designing, and maintaining software applications.
