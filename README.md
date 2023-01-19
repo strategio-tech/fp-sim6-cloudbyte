@@ -36,6 +36,11 @@ local area. Sign up and make friends, share your unique coffee experiences, disc
  </ul>
  
 # Requirements      
+
+<h2>Important Notice</h2>
+<p>Please refer to the repository in the link below for the complete project with the cyclic github hooks setup.</p>
+<p>https://github.com/chomiak89/fp-sim6-cloudbyte</p>
+
  <h2>MongoDB </h2>
  <p>Due to scalability, manageability and dynamic schemas, MongoDB has been used as the database for the application. Users, cafes and comments are stored in the cloud hosted MongoDB Atlas solution.</p>
  
