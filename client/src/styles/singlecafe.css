@@ -1,0 +1,165 @@
+.single-cafe-main-container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+/* ---------------------------------- HEADER SECTION STYLES */
+.single-cafe-header-container {
+  width: 100%;
+  text-align: left;
+}
+.single-cafe-header-container h1 {
+  display: block;
+  margin-bottom: 0;
+}
+.single-cafe-header-container h5 {
+  display: block;
+  margin-top: 5px;
+}
+/* ---------------------------------- IMAGE SECTION STYLES */
+.single-cafe-image-container {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+}
+.single-cafe-main-image {
+  width: 50%;
+  height: 500px;
+  margin-right: 10px;
+}
+.single-cafe-main-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px 0 0 15px;
+  object-fit: cover;
+}
+.single-cafe-side-images {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.single-cafe-side-images div {
+  width: 49%;
+  height: 245px;
+}
+.single-cafe-side-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.mb {
+  margin-bottom: 10px;
+}
+.rct {
+  border-radius: 0 15px 0 0;
+}
+.rcb {
+  border-radius: 0 0 15px 0;
+}
+/* ---------------------------------- ABOUT SECTION STYLES */
+.single-cafe-about-container {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.single-cafe-about-text-container {
+  width: 49%;
+}
+.single-cafe-about-text-container h4 {
+  font-weight: 400;
+  display: block;
+  margin: 0;
+}
+.single-cafe-about-text-container p {
+  border: 1px solid #dddddd;
+  border-radius: 15px;
+  padding: 20px;
+  font-weight: 200;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 40px;
+}
+.single-cafe-about-services-list {
+  text-align: center;
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.single-cafe-about-services-list > li {
+  display: inline;
+  margin: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 15px;
+  padding: 10px;
+}
+.hbt {
+  border-top: 1px solid #dddddd;
+  padding-top: 40px;
+}
+.single-cafe-about-map-container {
+  width: 49%;
+  text-align: center;
+}
+.single-cafe-about-map-container h4 {
+  width: 350px;
+  text-align: left;
+  margin: 0 auto 10px auto;
+  display: block;
+  font-weight: 400;
+}
+.single-cafe-about-map-container p {
+  width: 350px;
+  text-align: left;
+  margin: 0 auto 20px auto;
+  display: block;
+  font-weight: 200;
+}
+/* ---------------------------------- COMMENTS SECTION STYLES */
+.single-cafe-comments-container {
+  width: 100%;
+  text-align: left;
+}
+.single-cafe-comments-container h4 {
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+/* ---------------------------------- COMMENTS SECTION STYLES */
+.single-cafe-image-modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.single-cafe-image-modal img {
+  width: 70%;
+}
+.single-cafe-image-modal button {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 2.5rem;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.single-cafe-image-modal button:hover {
+  color: rgb(140, 139, 139);
+  border-color: rgb(140, 139, 139);
+}
